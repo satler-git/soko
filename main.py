@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from skimage import util
 
 
-rate, audio = wavfile.read(r"JEI説明.wav", "r") # waveファイルを読み込み用ファイルとして開く
+rate, audio = wavfile.read(r"ワープ成功.wav", "r") # waveファイルを読み込み用ファイルとして開く
 
 audio = np.mean(audio, axis=1) # ステレオをモノラルに変換
 N = audio.shape[0] # 要素数を返す
