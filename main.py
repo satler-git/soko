@@ -17,7 +17,7 @@ f, ax = plt.subplots()
 ax.plot(np.arange(N)/rate, audio)
 ax.set_xlabel('Time[s]')
 ax.set_ylabel('Amplitude[unknown]')
-plt.show()
+plt.savefig("1.png")
 
 M = 1024 # スライスのサンプル数
 
@@ -44,4 +44,4 @@ ax.axis('tight')
 ax.set_ylabel('Frequency[kHz]')
 ax.set_xlabel('Time[s]')
 
-plt.show()
+plt.savefig("sin.png")
